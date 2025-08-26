@@ -3,5 +3,5 @@ Allow: /
 
 # Disallow dev/preview endpoints (none by default)
 
-Sitemap: https://guihubie.com/sitemap-index.xml
+Sitemap: https://crafthecode.dev/sitemap-index.xml
 

@@ -37,7 +37,7 @@ const { title, description, pubDate, updatedDate, heroImage, showHeader = true, 
 		  datePublished: pubDate ? new Date(pubDate).toISOString() : undefined,
 		  dateModified: updatedDate ? new Date(updatedDate).toISOString() : undefined,
 		  author: [{ '@type': 'Person', name: Astro.props.author || 'Site Author' }],
-		  publisher: { '@type': 'Organization', name: 'guihubie.com' },
+		  publisher: { '@type': 'Organization', name: 'craftthecode.dev' },
 		  mainEntityOfPage: new URL(Astro.url.pathname, Astro.site).toString(),
 		  url: new URL(Astro.url.pathname, Astro.site).toString(),
 		})} />

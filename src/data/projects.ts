@@ -1,58 +1,58 @@
-import PhoenixIcon from '../assets/logos/Phoenix-logo.svg?raw';
-import N8nIcon from '../assets/logos/N8n-logo.svg?raw';
-import SupabaseIcon from '../assets/logos/Supabase-logo.svg?raw';
-import PosthogIcon from '../assets/logos/posthog-logo.svg?raw';
-import PythonIcon from '../assets/logos/Python-logo.svg?raw';
-import TailwindIcon from '../assets/logos/Tailwind-logo.svg?raw';
-
+import OddleIcon from '../assets/logos/Oddle-logo.svg?raw';
+import TagManagerIcon from '../assets/logos/Tagmanager-logo.svg?raw';
+import MenuWiseIcon from '../assets/logos/MenuWise-logo.svg?raw';
+import YourRentalsIcon from '../assets/logos/YourRentals-logo.svg?raw';
+import ZaloIcon from '../assets/logos/Zalo-logo.svg?raw';
 
 export const projects = [
-	{
-		title: "Workflow Automation Orchestrator (n8n)",
-		techStack: "n8n • Node.js • TypeScript • PostgreSQL",
-		description: "Event‑driven workflows for data sync, notifications, and back‑office automation. Custom nodes, secrets management, retries, and metrics.",
-		ctaText: "View Repo →",
-		ctaLink: "#",
-		icon: N8nIcon
-	},
-	{
-		title: "SaaS API Starter (Auth, Billing, RBAC)",
-		techStack: "Node.js • TypeScript • PostgreSQL • Supabase • Stripe",
-		description: "Production‑ready REST/GraphQL API with JWT auth, role‑based access, Stripe subscriptions, and rate‑limited endpoints.",
-		ctaText: "Get Source < / >",
-		ctaLink: "#",
-		icon: SupabaseIcon
-	},
-	{
-		title: "Realtime Chat Service",
-		techStack: "Phoenix • WebSockets • Redis • Docker",
-		description: "Low‑latency chat with channels, presence, and backpressure handling. Includes load tests and horizontal scaling notes.",
-		ctaText: "Live Demo →",
-		ctaLink: "#",
-		icon: PhoenixIcon
-	},
-	{
-		title: "Product Analytics Pipeline",
-		techStack: "Node.js • PostHog • PostgreSQL • ClickHouse",
-		description: "Event ingestion, batching, and replay; user properties and cohorts; dashboards for funnels, retention, and feature adoption.",
-		ctaText: "Read Case Study →",
-		ctaLink: "#",
-		icon: PosthogIcon
-	},
-	{
-		title: "Data Ingestion & ETL",
-		techStack: "Python • Airflow • PostgreSQL • S3",
-		description: "Scheduled extract/transform/load with schema migrations, data quality checks, and partitioned tables for analytics.",
-		ctaText: "View Repo →",
-		ctaLink: "#",
-		icon: PythonIcon
-	},
-	{
-		title: "Design System",
-		techStack: "React • TypeScript • Tailwind CSS • Storybook",
-		description: "Accessible UI kit with tokens, theming, and testing. Published as a versioned package with changelogs and docs.",
-		ctaText: "Docs →",
-		ctaLink: "#",
-		icon: TailwindIcon
-	},
+    {
+        title: "MenuWise - Recipe Cost Management Platform",
+        techStack: "NestJS • Next.js • React • PostgreSQL • Docker • Python ML",
+        description: "Complete platform rebuild with recipe weight calculations, nested cost structures, and intelligent ingredient matching. Rescued from 4-year development failure to working system.",
+        ctaText: "View Demo →",
+        ctaLink: "https://staging.menuwise.com",
+        icon: MenuWiseIcon
+    },
+    {
+        title: "Your.Rentals - Property Management Platform",
+        techStack: "NestJS • React • AngularJS • PostgreSQL • AWS • Kubernetes",
+        description: "Comprehensive vacation rental management platform with Stripe/PayPal payments, Booking.com/AirBNB integrations, and Spanish guest registration systems.",
+        ctaText: "Try Platform →",
+        ctaLink: "https://app.your.rentals/sign-up/email",
+        icon: YourRentalsIcon
+    },
+    {
+        title: "Oddle Reservation System",
+        techStack: "NodeJS • NextJS • TypeScript • AWS • PHP Laravel",
+        description: "High-performance reservation system serving 1000+ merchants, handling 15,000 requests/minute during peak events with Google Maps Booking API integration.",
+        ctaText: "Learn More →",
+        ctaLink: "https://www.oddle.me/sg/products/restaurant-reservation-system",
+        icon: OddleIcon
+    },
+    {
+        title: "GoClass.vn - Online Tutoring Platform",
+        techStack: "NodeJS • VueJS • WebRTC • WebSocket • MongoDB • AWS",
+        description: "MVP built from scratch in 3 months with real-time chat, video conferencing, learning analytics, and cross-platform mobile apps (iOS/Android).",
+        ctaText: "View Project →",
+        ctaLink: "#",
+        icon: TagManagerIcon
+    },
+    {
+        title: "Zalo Media Crawler System",
+        techStack: "Java • NodeJS • RabbitMQ • SQL Server • Microservices",
+        description: "Scalable distributed crawler serving 9+ billion requests over 6 months with 99.99% availability. Flexible parsing system supporting 500+ content sources.",
+        ctaText: "Case Study →",
+        ctaLink: "#",
+        icon: ZaloIcon
+    },
+    {
+        title: "Korean Educational Platform",
+        techStack: "Java • PHP • VueJS • Moodle • MySQL • MongoDB",
+        description: "Led development of educational platforms for Korean market. Helped achieve Moodle Silver Partner certification through delivery excellence and technical innovation.",
+        ctaText: "Visit Platform →",
+        ctaLink: "https://www.unioncloud.org/",
+        icon: TagManagerIcon
+    },
 ];
+
+export type Project = (typeof projects)[number];
