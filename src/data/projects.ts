@@ -6,7 +6,7 @@ import ZaloIcon from '../assets/logos/Zalo-logo.svg?raw';
 
 export const projects = [
     {
-        title: "MenuWise - Recipe Cost Management Platform",
+        title: "MenuWise - Recipe Management Platform",
         techStack: "NestJS • Next.js • React • PostgreSQL • Docker • Python ML",
         description: "Complete platform rebuild with recipe weight calculations, nested cost structures, and intelligent ingredient matching. Rescued from 4-year development failure to working system.",
         ctaText: "View Demo",
