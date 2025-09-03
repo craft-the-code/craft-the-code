@@ -2,7 +2,8 @@
 title: 'The Satirical Guide to Software Testing: Or How I Learned to Stop Worrying and Love the Test Suite'
 description: 'A guide on testing best practices, with a healthy dose of sarcasm, satire, and TypeScript examples that will make you wonder why you ever trusted npm test in the first place.'
 pubDate: 'Aug 27 2025'
-author: 'HungCQ'
+author: 'hoanld'
+tags: ['testing', 'coverage']
 ---
 
 

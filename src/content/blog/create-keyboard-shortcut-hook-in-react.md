@@ -3,6 +3,8 @@ title: 'Creating a Keyboard Shortcut Hook in React'
 description: 'Building a robust React hook for handling keyboard shortcuts with proper performance optimization, state management, and support for complex key combinations.'
 pubDate: 'Sep 03 2025'
 author: 'hoanld'
+tags: ['react', 'react hook']
+heroImage: '../../assets/images/react-hook.png'
 ---
 
 # Creating a Keyboard Shortcut Hook in React
