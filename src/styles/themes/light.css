@@ -1,8 +1,9 @@
 /* Light theme tokens. Applied when an ancestor sets [data-theme="light"] (default) */
 [data-theme="light"] {
-  --accent: #FF7A1A; /* brighter for light */
-  --accent-dark: #EA580C;
-  --accent-rgb: 255, 122, 26;
+
+  --accent: #0891b2; /* darker cyan for light backgrounds */
+  --accent-dark: #0e7490; /* even darker for emphasis */
+  --accent-rgb: 8, 145, 178;
 
   --black: 15, 18, 25;
   --gray: 96, 115, 159;
@@ -15,13 +16,13 @@
   --card-foreground: #0f1219;
   --popover: #ffffff;
   --popover-foreground: #0f1219;
-  --primary: var(--accent);
+  --primary: var(--accent); /* Use cyan as primary */
   --primary-foreground: #ffffff;
-  --secondary: #FFB36B;
-  --secondary-foreground: #0f1219;
+  --secondary: var(--accent-dark); /* Use darker cyan as secondary */
+  --secondary-foreground: #ffffff;
   --muted: rgb(246, 247, 249);
   --muted-foreground: rgb(96, 115, 159);
-  --accent-foreground: #0f1219;
+  --accent-foreground: #ffffff;
 
   /* Semantic Color Tokens for components */
   --color-text-primary: rgb(var(--black));
@@ -30,12 +31,14 @@
   --color-bg-primary: var(--background);
   --color-bg-secondary: rgba(0, 0, 0, 0.03);
   --color-bg-tertiary: rgba(0, 0, 0, 0.05);
+  --color-accent-text: var(--accent);
+  --color-accent-bg: rgba(var(--accent-rgb), 0.1);
 
   /* Borders */
   --color-border: rgba(0, 0, 0, 0.12);
   --color-border-light: rgba(0, 0, 0, 0.08);
 
-  --info: #38bdf8;
+  --info: var(--accent); /* Use cyan for info color */
   --info-foreground: #082f49;
   --success: #22c55e;
   --success-foreground: #052e16;
@@ -46,7 +49,5 @@
 
   --border: rgb(229, 233, 240);
   --input: rgb(229, 233, 240);
-  --outline: var(--accent);
+  --outline: var(--accent); /* Use cyan for outline/focus states */
 }
-
-
