@@ -1,7 +1,7 @@
 ---
 title: 'GDPR Data Protection: Implementation Guide for Developers'
 description: 'A practical guide to implementing GDPR compliance with technical architecture patterns, data protection strategies, and real-world examples for modern web applications.'
-pubDate: 'Sep 12 2025'
+pubDate: 'Sep 2 2025'
 author: 'hoanld'
 tags: ['gdpr', 'privacy', 'compliance', 'data-protection']
 heroImage: '../../assets/images/gdpr-compliance.jpg'

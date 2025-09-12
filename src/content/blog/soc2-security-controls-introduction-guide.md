@@ -1,7 +1,7 @@
 ---
 title: "SOC2 Security Controls: A Developer's Guide to Implementation"
 description: 'A comprehensive technical guide to implementing SOC2 security controls with practical architectural patterns, pseudo-code examples, and real-world compliance strategies for modern applications.'
-pubDate: 'Sep 11 2025'
+pubDate: 'Aug 31 2025'
 author: 'hoanld'
 tags: ['security', 'compliance', 'soc2', 'architecture']
 heroImage: '../../assets/images/soc2.png'
