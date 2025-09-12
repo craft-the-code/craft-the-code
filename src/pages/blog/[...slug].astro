@@ -4,11 +4,11 @@ import BlogPost from '../../layouts/BlogPost.astro';
 import { calculateReadingTimeFromHtml } from '../../lib/reading';
 
 export async function getStaticPaths() {
-	const posts = await getCollection('blog');
-	return posts.map((post) => ({
-		params: { slug: post.id },
-		props: post,
-	}));
+    const posts = await getCollection('blog');
+    return posts.map((post) => ({
+        params: { slug: post.id },
+        props: post,
+    }));
 }
 type Props = CollectionEntry<'blog'>;
 
@@ -26,5 +26,5 @@ const readingTimeMin = calculateReadingTimeFromHtml(html ?? '');
 ---
 
 <BlogPost {...post.data} prevPost={prev} nextPost={next} readingTimeMin={readingTimeMin}>
-  <Content />
+    <Content />
 </BlogPost>

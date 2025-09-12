@@ -4,13 +4,16 @@ import tailwindcss from "@tailwindcss/vite";
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
+import mermaid from 'astro-mermaid';
 
 import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
     site: 'https://craftthecode.dev',
-  integrations: [mdx(), sitemap()],
+  integrations: [mdx(), sitemap(), mermaid({
+      theme: 'forest'
+  })],
 
   vite: {
     plugins: [tailwindcss()],
